@@ -55,6 +55,11 @@
     "react-dom": "16.0.0",
     "standard-version": "4.2.0"
   },
+  "browser": {
+		"fs": false,
+		"path": false,
+		"os": false
+	},
   "scripts": {
     "release": "standard-version",
     "test": "npm run lint && jest .",
